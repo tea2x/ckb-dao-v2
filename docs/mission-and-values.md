@@ -1,12 +1,12 @@
 # Mission & Values
 
-## Introduction
+## 1. Introduction
 
 A community DAO is a step towards creating a sustainable catalyst for growth in a decentralized ecosystem. It is also a precursor to community governance of a decentralized ecosystem.
 
 This initiative aims to create a second community DAO that builds off of the original community DAO with meaningful changes that will lead it to a higher rate of success.
 
-## Mission and Values
+## 2. Mission and Values
 
 To empower the community to become a driving force behind ecosystem growth by defining a framework for decentralized governance.
 
@@ -22,7 +22,7 @@ To facilitate a successful community effort, we must adopt and adhere to a set o
 
 The technology we are building minimizes trust and enables higher levels of transparency. We should take advantage of this whenever it is beneficial, but never for the sake of using the technology. Adopting technology without necessity leads to unnecessary complexity and overhead, which must be avoided.
 
-## Key Challenges and Solutions
+## 3. Key Challenges and Solutions
 
 The primary challenge is not one of technology, but one of humans working together. This is the same challenge that has persisted throughout all of human history without a perfect solution. Fixing humanity’s greatest challenges is far beyond the scope of the DAO, but we can use this knowledge to build a better system in the interest of the community.
 

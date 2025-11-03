@@ -1,19 +1,19 @@
 # Community Roles
 
-## Introduction
+## 1. Introduction
 
 This document describes community roles that the Community Fund DAO could fund after the Nervos Foundation's dissolution. It is intended to be a starting point for envisioning how structures and roles would exist in a more concrete and realistic sense, but it is not a formal recommendation.
 
 All roles funded through the DAO must answer to the community as the highest authority, with representatives acting on their behalf. No roles in the DAO should ever be an automatic renewal. All roles must be reapplied for and voted on each year by the community.
 
-## Open Questions
+## 2. Open Questions
 
 - How is voter fatigue prevented during contract renewal season?
 - Is annual renewal realistic for teams that work on projects with a multi-year agenda?
 
-## Roles
+## 3. Roles
 
-### Community Manager
+### 3.1. Community Manager
 
 Responsible for cultivating an engaged, informed, and growing community ecosystem through strategic planning and coordination.
 
@@ -25,7 +25,7 @@ Responsible for cultivating an engaged, informed, and growing community ecosyste
 - Manages relationships with key community members and opinion leaders.
 - Works with the DAO to establish annual community growth objectives.
 
-### Community Moderator
+### 3.2. Community Moderator
 
 Responsible for maintaining healthy, productive discourse across all community platforms while ensuring community safety and adherence to guidelines.
 
@@ -37,7 +37,7 @@ Responsible for maintaining healthy, productive discourse across all community p
 - Serves as the first point of contact for new community members.
 - Collaborates with Community Educators to address knowledge gaps.
 
-### Community Educator
+### 3.3. Community Educator
 
 Responsible for developing comprehensive educational materials that increase understanding of Nervos technology, governance, and ecosystem across various learning styles and technical levels.
 
@@ -47,7 +47,7 @@ Responsible for developing comprehensive educational materials that increase und
 - Measures effectiveness of educational initiatives and iterates accordingly.
 - Establishes educational partnerships with relevant external organizations.
 
-### Community Ambassador
+### 3.4. Community Ambassador
 
 Responsible for representing the CKB ecosystem in external communities and bringing new participants into the ecosystem.
 
@@ -56,7 +56,7 @@ Responsible for representing the CKB ecosystem in external communities and bring
 - Creates entry points for new developers and users.
 - Coordinates with Ecosystem Partnership Facilitator on crossover opportunities.
 
-### Ecosystem Media Coordinator
+### 3.5. Ecosystem Media Coordinator
 
 Responsible for managing media channels and creating consistent messaging about CKB ecosystem developments.
 
@@ -65,7 +65,7 @@ Responsible for managing media channels and creating consistent messaging about 
 - Coordinates announcements with project teams.
 - Ensures accurate representation of CKB in crypto media.
 
-### Ecosystem Event Manager
+### 3.6. Ecosystem Event Manager
 
 Responsible for creating and executing a strategic events program that builds community, showcases ecosystem progress, and attracts new participants both online and offline.
 
@@ -76,7 +76,7 @@ Responsible for creating and executing a strategic events program that builds co
 - Manages event budgets and measures ROI of different event formats.
 - Establishes partnerships with relevant industry events.
 
-### Ecosystem Partnership Facilitator
+### 3.7. Ecosystem Partnership Facilitator
 
 Responsible for identifying, establishing, and nurturing strategic partnerships that create mutual value between the Nervos ecosystem and external projects, protocols, and communities.
 
@@ -89,7 +89,7 @@ Responsible for identifying, establishing, and nurturing strategic partnerships 
 - Coordinates cross-chain initiatives with relevant technical teams.
 - Builds relationships with complementary blockchain ecosystems.
 
-### Grant Opportunity Scout
+### 3.8. Grant Opportunity Scout
 
 Responsible for identifying potential grant recipients and helping them prepare high-quality proposals.
 
