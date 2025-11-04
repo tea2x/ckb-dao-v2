@@ -1,18 +1,18 @@
 # Address Binding Protocol
 
-## Introduction
+## 1. Introduction
 
 This document describes a protocol for linking on-chain CKB addresses with an off-chain identity within the DAO governance system. The protocol aims to ensure the system remains transparently verifiable and user-friendly to encourage maximum participation.
 
 > This document is currently in the early concept phase and will change significantly.
 
-## Background
+## 2. Background
 
 One of the most important lessons learned from the first Community Fund DAO is that user-friendly interfaces are critical for adoption. Community members will not participate in a platform that is difficult to use. The first iteration used a flexible process with simple implementation, but user-friendliness suffered as a result.
 
 Balancing user-friendliness with developer-friendliness is a challenge, but this expermient has given us unignorable results. This protocol attempts to balance these two goals, but prioritizes user-friendliness over simplistic implementation.
 
-## Protocol Overview
+## 3. Protocol Overview
 
 The CKB native token is the basis for weighting votes in the DAO, and the addresses which hold the CKB must be bound to the accounts of the DAO. This creates a challenge in that we must bind on-chain addresses to off-chain identities using disconnected wallets which could change addresses or balances at any time.
 

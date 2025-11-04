@@ -1,12 +1,12 @@
 # Treasury Mechanisms
 
-## Introduction
+## 1. Introduction
 
 This document describes the challenges involved with the management of treasury-issued funds and potential directions that can be taken.
 
 The solutions in this document are not mutually exclusive. Over the long term, different solutions may be used. Different iterations may be a realistic way to approach this endeavor.
 
-## Challenges
+## 2. Challenges
 
 Treasury funds are a target for bad actors. This makes anyone who is a key holder for the treasury a potential target.
 
@@ -18,11 +18,11 @@ On-chain systems are more difficult, costly, and inflexible. On-chain systems al
 
 Solutions: A fully on-chain solution is not fundamentally necessary for a functional DAO. This is a solution that can be stepped into after a meaningful technical design has been created and a sustainable governance community has been established.
 
-## Implementations
+## 3. Implementations
 
 A Treasury Mechanism is a framework for managing on-chain funds through security and governance structures that ensure controlled access, accountability, and adaptability within a decentralized system. Below are different potential implementations of treasury mechanisms.
-  
-### Treasury Multisig Wallet (Top Representitives)
+
+### 3.1. Treasury Multisig Wallet (Top Representitives)
 
 The Treasury Multisig Wallet is a basic multisig wallet controlled by the top 10 (exact number TBD) representitives in the ecosystem by delegated voting power. It functions as a traditional multi-signature wallet requiring a fixed threshold of representitive signatures to authorize and execute treasury transactions.
 
@@ -50,7 +50,7 @@ Challenges to the qualifications of any individual can be resolved through a sta
 
 The wallet is designed to be a simple and secure way to manage treasury funds while maintaining a high-level transparency. It is a straightforward approach that can be implemented quickly and does not forbid a later move to more sophisticated treasury mechanism in the future.
 
-### Treasury Vault and Treasury Guardian System (Vote-Based Proposals)
+### 3.2. Treasury Vault and Treasury Guardian System (Vote-Based Proposals)
 
 The Treasury Vault is the location where CKB funds are accrued from secondary issuance. It can be thought of as a single address with a custom vote-based lock known as the Treasury Vault Lock (TVL) which is controlled by a group of Vault Guardians.
 

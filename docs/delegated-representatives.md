@@ -1,6 +1,6 @@
 # Delegated Representatives
 
-## Introduction
+## 1. Introduction
 
 This document describes a DAO structure in which community members may delegate their
 voting power to representatives to vote on their behalf. Community members may delegate to
@@ -17,7 +17,7 @@ most of the concepts will work with any funding source.
 
 The information in this document may overlap with [Mission & Values](./mission-and-values.md), which will be combined at a later date.
 
-## Representatives
+## 2. Representatives
 
 A representative is any community member who wishes to take a more active role in the
 governance of the DAO. After declaring themselves as representatives, other community
@@ -45,7 +45,8 @@ interest in the long-term, but not high enough that it gains the interest of sho
 
 More information on voting weight as it relates to representatives is described later in this
 document.
-## Open Questions
+
+### 2.1. Open Questions
 
 1. Should representatives be required to perform KYC?
    a. Would a special DID+KYC give benefit for the identification of representatives?
@@ -57,7 +58,7 @@ document.
    a. How much would the fee be?
    b. Should individuals be able to seek sponsorship to cover this fee if they are from disadvantaged regions of the world?
 
-## DAO Roles
+## 3. DAO Roles
 
 There are special roles that need to be filled to operate the DAO successfully. All roles should
 be structured not as staff, but as compensation for work performed.
@@ -70,7 +71,7 @@ individual.
 DAO roles are related specifically to the facilitation of DAO processes. A separate document
 has been created for **Community Roles** that are funded by the DAO.
 
-### Role Definition
+### 3.1. Role Definition
  
 - **Auditor:** Responsible for ensuring that processes remain transparent and accurate. When meetings are taking place, the auditor ensures that the content of the discussion is made available to the public and is unadulterated. Also responsible for the first review of fraud reports to determine if they are frivolous or warrant additional attention by the community and representatives.
 - **Proposal Screener:** Responsible for taking the first look at proposals that have been drafted and ensuring that they have followed procedure before the proposal is made public and representatives are called to review and vote on it.
@@ -85,12 +86,13 @@ has been created for **Community Roles** that are funded by the DAO.
 
 All processes for the screening and appointment of individuals to specific roles must be done in public view as much as possible. A single person may take on multiple different roles. Not all roles will be needed immediately, and these roles are expected to evolve.
 
-## Platform
+## 4. Platform
 
 The DAO voting interface will primarily be web 2.0 based using open source software with applicable binding to web3 where necessary. All essential voting data will be publicly available so validity can be proven by anyone using freely available tools. Essential data required for proving will be published to one or more decentralized public locations, such as CKBFS, to ensure that permanent records will not be lost.
 
-Rationale: Feasibility and accessibility are important considerations for a community DAO. True web 3.0 technology is not widespread enough to be ubiquitous. Barriers to adoption need to be avoided. Web 2.0 can fully meet the DAO’s present-day needs.
-## Components
+Rationale: Feasibility and accessibility are important considerations for a community DAO. True web 3.0 technology is not widespread enough to be ubiquitous. Barriers to adoption need to be avoided. Web 2.0 can fully meet the DAO's present-day needs.
+
+### 4.1. Components
 
 The following are the main sections of the DAO portal.
 
@@ -110,7 +112,8 @@ The following are the main sections of the DAO portal.
     - Social media posts.
     - Email mailings.
   - Community member self-service subscribe/unsubscribe.
-## Voting Method
+
+## 5. Voting Method
 
 Voting on the platform is collected and tallied primarily using off-chain systems that allow for robust programmability. This is similar to the existing Metaforo, but the process for binding must make user-friendliness a priority. Address binding must be accomplishable by an average user in 30 seconds or less.
 
@@ -119,16 +122,18 @@ Rationale: On-chain voting is complicated and inflexible while offering few bene
 Proposals will be voted on by representatives or by community members directly through the platform. When a community member delegates voting power, it does not exclude them from voting directly on a particular issue. When a user votes directly, their voting power is retained for their vote rather than being delegated on that particular proposal.
 
 Rationale: Most voting will occur through delegates, but the community must retain the ability to vote directly on issues they feel strongly about. This is to avoid problematic situations inherent to governance systems where issue granularity is lost due to exclusive representative voting.
-## Voting Power
+
+## 6. Voting Power
 
 Nervos DAO locked CKB allows for a voting power of 1 vote per Shannon. Unlocked CKB is also eligible, but subject to a lower voting power proportional to the age of the UTXO. A new UTXO will start at zero voting weight and gain additional voting weight each epoch until reaching full voting power at 180 epochs (30 days).
 
 Rationale: A Shannon is used as a vote because it is the smallest natural divisor unit. The vote display will likely be similar to CKB, with a fractional representation of the Shannons. The purpose of aged UTXOs for voting is to recognize the fair-sized chunk of the community that will not use the Nervos DAO because of the 30-day lockup. This allows them access to vote while still offering some protection against a borrowed stake attack; where someone borrows a large sum of CKB for a short term specifically to manipulate the vote. Adjusting their vote weight by UTXO age effectively has the same cost effect as the Nervos DAO for mitigating this attack.
-## Voting Types
+
+## 7. Voting Types
 
 Different types of voting will allow the community to vote more effectively on different issues.
 
-### Primary
+### 7.1. Primary
 
 These types of voting will have immediate use cases and should be the focus of initial development efforts.
 
@@ -136,7 +141,7 @@ These types of voting will have immediate use cases and should be the focus of i
 - Plurality Voting: Voters select one option they approve of, and the entirety of their vote weight is used for this vote. This is best suited for elections where there is only one seat available.
 - Approval Voting: Voters select one or more options they approve of, and their vote weight is distributed equally among these options. This is best suited for elections where multiple seats are available.
 
-### Future Consideration
+### 7.2. Future Consideration
 
 These types of voting are designed to address more complex scenarios. While not immediately necessary, these could be implemented as the DAO evolves.
 
@@ -144,7 +149,8 @@ These types of voting are designed to address more complex scenarios. While not 
 - Weighted Voting: Voters can assign different weight amounts to each vote option they choose. This offers superior granularity in voting preferences but is more complicated from a usability perspective.
 - Ranked-Choice Voting: Voters rank their preferences, but are not allowed to adjust weights. Instead, weight is distributed using a fixed algorithm.
 - Time-Weighted Voting: Voters gain additional weight from DAO-locked CKB that has been locked for longer. This rewards long-term holders who have sacrificed the opportunity cost of their assets.
-## Voting Exclusion
+
+## 8. Voting Exclusion
 
 Using a vote-weight system can result in too much centralization of power, which can then result in unjust influence and corruption. Examples of these are:
 
@@ -155,24 +161,28 @@ Using a vote-weight system can result in too much centralization of power, which
 - Staking pools (DeFi).
 
 The most simplistic way to protect against this is to simply disallow voting by these organizations. While it does not mitigate the potential completely, it is a deterrent. Since voting is done publicly and auditable, large sums of CKB can be traced to an extent. In this case, fraud can be detected and handled by the community.
-## Fraud Reporting
+
+## 9. Fraud Reporting
 
 The ability for community members to report fraud for investigation is an essential part of maintaining an accountable system. The interface for such a system must balance simplicity and transparency with effectiveness in the face of adversity.
 
 The basis is a basic ticketing system. Reports are entered by community members and assigned a ticket number. Ticket visibility starts as limited to auditors only. This is to ensure that sensitive information is not leaked prematurely. The status of a report and its review state are public. The details of a report are not made visible to the public until approved by auditors. For sensitive topics, public viewing may be delayed temporarily, with a predefined hard upper threshold until automatic publication. For exceptions requiring more time, such as legal proceedings, a private vote by delegates is required.
-### Open Questions
+
+### 9.1. Open Questions
 
 - What are the criteria for determining which assets can be used for DAO weight?
   - Should iCKB be recognized?
 - Should fraud reporting allow anonymous submissions?
 - What mitigations can prevent a DoS attack on the fraud reporting system?
 - At what point does a fraud report become public without exception?
-## Treasury
+
+## 10. Treasury
 
 The treasury funds are managed in two levels, the Treasury Vault and Treasury Wallets.
 
 More details about the implementation, as well as potential alternative models, can be found in the **Treasury Mechanisms** document.
-### Treasury Vault
+
+### 10.1. Treasury Vault
 
 The Treasury Vault is the location where CKB funds are accrued from secondary issuance. It can be thought of as a single address with a custom vote-based multi-sig lock known as the Treasury Vault Lock (TVL) which is controlled by a group of Vault Guardians.
 
@@ -188,14 +198,16 @@ The TVL is similar to a multi-sig, but it has extra functionality and restrictio
 8. A vote is also subject to a mandatory 7-day waiting period before the changes can be enacted.
 
 Rationale: Because of the high amount of funds at stake, a more resilient system is needed. This system prevents bad actors from making withdrawals, even if some keys are compromised, and allows a period to rectify mistakes in the event of an error.
-### Vault Guardians
+
+### 10.2. Vault Guardians
 
 Vault Guardian is a well-known and KYC-verified delegate who has been elected to the role through a DAO proposal. They are required to have demonstrated strong moral character, and a long-term commitment to the CKB ecosystem, and must be technically savvy enough to use DAO tools designed for the specific purpose of vault management.
 
 Vault Guardian receives a small stipend for their participation and an additional stipend for each vote they participate in.
 
 Rationale: This role is important and has risks associated since there are large sums of funds at stake. Extra care must be taken to ensure that only qualified individuals can take part in this process, and high turnover must be discouraged to mitigate revolving door risk.
-### Treasury Wallets
+
+### 10.3. Treasury Wallets
 
 A treasury wallet is a multi-sig wallet controlled by Treasurers. This is a normal wallet that uses standard locks and can make payments to anyone without waiting periods. A Treasury Wallet is a "hot wallet" that is used to pay grant proposals and any outstanding dues.
 
@@ -208,16 +220,19 @@ Examples of different Treasury Wallets:
 3. Community Roles
 4. Core Development
 5. Security Bounties
-### Treasurer
+
+### 10.4. Treasurer
 
 Treasurer is responsible for managing a multi-sig Treasury Wallet and making approved payments.
 
 Treasurer receives a small stipend for their participation and an additional stipend for payment activity.
-### Open Questions
+
+### 10.5. Open Questions
 
 - Should Vault Guardians or Treasurers be required to lock a stake as an extra deterrent to fraud?
 - What additional prerequisites should exist for Vault Guardians and Treasurers?
-## Community Roles
+
+## 11. Community Roles
 
 Many roles in the community are currently being funded through centralized organizations, but it may make sense to move these to the DAO in time. These roles are typically related to community management and education, but may also encompass marketing and business development.
 
@@ -225,7 +240,7 @@ All roles should be subject to a policy of periodic reevaluation and renewal. Th
 
 The details about the roles themselves are beyond the scope of this document and have been moved to **Nervos Community Fund DAO v2.0 - Community Roles**.
 
-## Wallet Support and Binding Process
+## 12. Wallet Support and Binding Process
 
 Both wide wallet support and superior user-friendliness are important, but their concerns are generally at odds with each other.
 
